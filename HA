@@ -8,6 +8,8 @@ SAMSUNG
   FIRE TV
     DEVICE: 
       - 
+    HUB:
+      - NO
     INTEGRATION
       - ANDROID DEBUG BRIDGE (NATIVE)
     ENTITIES/CONTROL
@@ -16,9 +18,25 @@ SAMSUNG
       - INSTALL: 10/10
       - RELIABILITY: 10/10
 
+GENERAC
+    DEVICE: 
+      - GENERATOR G0072910
+    HUB:
+      - NO
+    INTEGRATION
+      - GENERAC (NATIVE)
+    ENTITIES/CONTROL
+      - STATUS MONITORING
+      - ALERTS
+    RATING
+      - INSTALL: 10/10
+      - RELIABILITY: 10/10
+
 LOREX
     DEVICE: 
       - 
+    HUB:
+      - NO
     INTEGRATION
       - DAHUA (HACS)
       - DAHUA (NATIVE)
@@ -31,6 +49,8 @@ LOREX
 HOMEWERKS
     DEVICE: 
       - 
+    HUB:
+      - NO
     INTEGRATION
       - ALEXA
       - DLNA (NATIVE)
@@ -45,6 +65,8 @@ HOMEWERKS
 AIRTHINGS
     DEVICE: 
       - 
+    HUB:
+      - XXXXXXXXXXXXXXXXXXXXX
     INTEGRATION
       - ECOBEE (NATIVE)
     ENTITIES/CONTROL
@@ -61,6 +83,8 @@ AIRTHINGS
 ECOBEE
     DEVICE: 
       - 
+    HUB:
+      - NO
     INTEGRATION
       - ECOBEE (NATIVE)
     ENTITIES/CONTROL
@@ -72,6 +96,8 @@ ECOBEE
 ECOVACS
     DEVICE: 
       - DEEBOT T20
+    HUB:
+      - NO
     INTEGRATION
       - ESPHOME (NATIVE)
     ENTITIES/CONTROL
@@ -83,6 +109,8 @@ ECOVACS
 RATGDO to control MYQ Garage Dppr
     DEVICE: 
       - 
+    HUB:
+      - NO
     INTEGRATION
       - ESPHOME (NATIVE)
     ENTITIES/CONTROL
@@ -94,6 +122,8 @@ RATGDO to control MYQ Garage Dppr
   MOEN
     DEVICE: 
       - FLO BY MOEN
+    HUB:
+      - NO
     INTEGRATION
       - FLO BY MOEN (NATIVE)
     ENTITIES/CONTROL
@@ -109,6 +139,8 @@ RATGDO to control MYQ Garage Dppr
 
     DEVICE: 
       - U BY MOEN
+    HUB:
+      - NO
     INTEGRATION
       - HOMEKIT (NATIVE)
     ENTITIES/CONTROL
@@ -119,8 +151,126 @@ RATGDO to control MYQ Garage Dppr
       - INSTALL: 7/10
       - RELIABILITY: 8/10
 
+AQARA
+    DEVICE: 
+      - FP2
+    HUB:
+      - NO
+    INTEGRATION
+      - HOMEKIT (NATIVE)
+    ENTITIES/CONTROL
+      - LUX
+      - PRESENCE (EACH ZONE)
+    RATING
+      - INSTALL: 6/10
+      - RELIABILITY: 8/10
 
-  
+    DEVICE: 
+      - CUBE T1 PRO
+    HUB:
+      - AQARA M3
+    INTEGRATION
+      - MATTER (NATIVE)
+    ENTITIES/CONTROL
+      - CUBE SIDES 
+    RATING
+      - INSTALL: 10/10
+      - RELIABILITY: 10/10
+
+    DEVICE: 
+      - T1M LIGHT
+    HUB:
+      - AQARA M3
+    INTEGRATION
+      - MATTER (NATIVE)
+    ENTITIES/CONTROL
+      - ON/OFF
+      - STARTUP BEHAVIOR
+      - COLOR
+      - BRIGHTNESS
+    RATING
+      - INSTALL: 10/10
+      - RELIABILITY: 10/10
+
+    DEVICE: 
+      - T1M LIGHT
+    HUB:
+      - AQARA M3
+    INTEGRATION
+      - MATTER (NATIVE)
+    ENTITIES/CONTROL
+      - ON/OFF
+      - STARTUP BEHAVIOR
+      - COLOR
+      - BRIGHTNESS
+    RATING
+      - INSTALL: 10/10
+      - RELIABILITY: 10/10
+
+    DEVICE: 
+      - WATER LEAK SENSOR
+    HUB:
+      - SONOFF Zigbee 3.0
+    INTEGRATION
+      - ZHA (NATIVE)
+    ENTITIES/CONTROL
+      - STATUS MONITORING
+      - TEMPERATURE
+    RATING
+      - INSTALL: 10/10
+      - RELIABILITY: 10/10
+
+    DEVICE: 
+      - DOOR and WINDOW SENSOR
+    HUB:
+      - SONOFF Zigbee 3.0
+    INTEGRATION
+      - ZHA (NATIVE)
+    ENTITIES/CONTROL
+      - STATUS MONITORING
+      - TEMPERATURE
+    RATING
+      - INSTALL: 10/10
+      - RELIABILITY: 10/10
+
+    DEVICE: 
+      - SMART PLUG
+    HUB:
+      - SONOFF Zigbee 3.0
+    INTEGRATION
+      - ZHA (NATIVE)
+    ENTITIES/CONTROL
+      - ON/OFF
+      - POWER CURRENT
+      - TOTAL POWER USAGE
+      - VOLTAGE
+      - TEMPERATURE
+      - FIRMWARE
+    RATING
+      - INSTALL: 10/10
+      - RELIABILITY: 10/10
+
+    DEVICE: 
+      - P1
+    HUB:
+      - SONOFF Zigbee 3.0
+    INTEGRATION
+      - ZHA (NATIVE)
+    ENTITIES/CONTROL
+      - LED
+      - LUX
+      - MOTION
+      - OCCUPANCY
+      - DETECTION INTERVAL
+      - LED INDICATOR
+      - MOTION SENSITIVITY
+      - FIRMWARE
+    RATING
+      - INSTALL: 10/10
+      - RELIABILITY: 10/10
+
+
+
 
 NOT INSTALLED / COULDNT FIGURE OUT
 FLIC
